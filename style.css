@@ -87,7 +87,6 @@ footer a {
 footer a:hover {
     color: var(--primary-color); /* Bright coral on hover */
 }
-
 /* Styly pro sekce */
 section {
     margin-bottom: 30px;
