@@ -1,11 +1,11 @@
 /* Základní proměnné */
 :root {
-    --primary-color: #333;
-    --secondary-color: #555;
-    --accent-color: #ff6f61;
-    --background-color: #f4f4f4;
-    --text-color: #333;
-    --light-text-color: #fff;
+    --primary-color: #ff6f61; /* Bright coral for primary accents */
+    --secondary-color: #6b5b95; /* Muted purple for secondary elements */
+    --accent-color: #88b04b; /* Fresh green for highlights */
+    --background-color: #f7f7f7; /* Light gray for background */
+    --text-color: #2a2a2a; /* Dark gray for text */
+    --light-text-color: #ffffff; /* White for text on dark backgrounds */
     --border-radius: 8px;
     --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     --font-family: 'Arial', sans-serif;
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background: var(--primary-color);
+    background: var(--primary-color); /* Bright coral header */
     color: var(--light-text-color);
     padding: 20px 0;
     text-align: center;
@@ -55,7 +55,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--accent-color);
+    color: var(--accent-color); /* Fresh green on hover */
 }
 
 main {
@@ -65,7 +65,7 @@ main {
 }
 
 footer {
-    background: var(--primary-color);
+    background: var(--secondary-color); /* Muted purple footer */
     color: var(--light-text-color);
     text-align: center;
     padding: 15px 0;
@@ -81,7 +81,7 @@ section {
 }
 
 h2 {
-    color: var(--primary-color);
+    color: var(--secondary-color); /* Muted purple for section headings */
     font-size: 2rem;
     margin-bottom: 15px;
 }
@@ -101,7 +101,7 @@ h2 {
 }
 
 .trasa h3, .tip h3 {
-    color: var(--secondary-color);
+    color: var(--primary-color); /* Bright coral for subheadings */
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -113,7 +113,7 @@ h2 {
 }
 
 .trasa strong, .tip strong {
-    color: var(--primary-color);
+    color: var(--accent-color); /* Fresh green for bold text */
 }
 
 img {
