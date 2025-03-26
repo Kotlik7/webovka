@@ -7,74 +7,115 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Běžecký svět</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Úvod</a></li>
-                <li><a href="trasy.html">Trasy</a></li>
-                <li><a href="typy.html">Tipy</a></li>
+    <header class="site-header">
+        <h1 class="site-title">Běžecký svět</h1>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Úvod</a></li>
+                <li class="nav-item"><a href="trasy.html" class="nav-link current">Trasy</a></li>
+                <li class="nav-item"><a href="typy.html" class="nav-link">Tipy</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>Běžecké trasy</h2>
+    <main class="main-content">
+        <section class="routes-section">
+            <h2 class="section-title">Běžecké trasy</h2>
             
-            <div class="trasa">
-                <h3>Lesní okruh</h3>
-                <p><strong>Délka:</strong> 5 km</p>
-                <p><strong>Obtížnost:</strong> Lehká</p>
-                <p>Trasa vede krásným lesem s rovinatým terénem. Ideální pro relaxační běh nebo pro začátečníky.</p>
-                <p><strong>Tip:</strong> V létě zde najdete stín, který oceníte při běhu v horkých dnech.</p>
-            </div>
+            <article class="route">
+                <div class="route-header">
+                    <h3 class="route-title">Lesní okruh</h3>
+                    <div class="route-image">
+                        <img src="img/5km.webp" alt="Lesní běžecká trasa">
+                    </div>
+                </div>
+                <div class="route-details">
+                    <p><strong>Délka:</strong> 5 km</p>
+                    <p><strong>Obtížnost:</strong> Lehká</p>
+                    <p>Trasa vede krásným lesem s rovinatým terénem. Ideální pro relaxační běh nebo pro začátečníky.</p>
+                    <p class="route-tip"><strong>Tip:</strong> V létě zde najdete stín, který oceníte při běhu v horkých dnech.</p>
+                </div>
+            </article>
         
-            <div class="trasa">
-                <h3>Městský park</h3>
-                <p><strong>Délka:</strong> 3 km</p>
-                <p><strong>Obtížnost:</strong> Střední</p>
-                <p>Ideální pro rychlé běhy v centru města. Trasa je dobře udržovaná a osvětlená, takže je vhodná i pro večerní běhání.</p>
-                <p><strong>Tip:</strong> Park je oblíbený mezi běžci, takže se můžete připojit k běžecké skupině.</p>
-            </div>
+            <article class="route">
+                <div class="route-header">
+                    <h3 class="route-title">Městský park</h3>
+                    <div class="route-image">
+                        <img src="img/park3km.webp" alt="Běžecká trasa v městském parku">
+                    </div>
+                </div>
+                <div class="route-details">
+                    <p><strong>Délka:</strong> 3 km</p>
+                    <p><strong>Obtížnost:</strong> Střední</p>
+                    <p>Ideální pro rychlé běhy v centru města. Trasa je dobře udržovaná a osvětlená, takže je vhodná i pro večerní běhání.</p>
+                    <p class="route-tip"><strong>Tip:</strong> Park je oblíbený mezi běžci, takže se můžete připojit k běžecké skupině.</p>
+                </div>
+            </article>
         
-            <div class="trasa">
-                <h3>Horská stezka</h3>
-                <p><strong>Délka:</strong> 10 km</p>
-                <p><strong>Obtížnost:</strong> Těžká</p>
-                <p>Náročná trasa s velkým převýšením, která vede horskými vrcholy. Vhodná pro zkušené běžce, kteří hledají výzvu.</p>
-                <p><strong>Tip:</strong> Nezapomeňte si vzít dostatek vody a občerstvení, trasa je náročná a dlouhá.</p>
-            </div>
+            <article class="route">
+                <div class="route-header">
+                    <h3 class="route-title">Horská stezka</h3>
+                    <div class="route-image">
+                        <img src="img/10km.webp" alt="Horská běžecká trasa">
+                    </div>
+                </div>
+                <div class="route-details">
+                    <p><strong>Délka:</strong> 10 km</p>
+                    <p><strong>Obtížnost:</strong> Těžká</p>
+                    <p>Náročná trasa s velkým převýšením, která vede horskými vrcholy. Vhodná pro zkušené běžce, kteří hledají výzvu.</p>
+                    <p class="route-tip"><strong>Tip:</strong> Nezapomeňte si vzít dostatek vody a občerstvení, trasa je náročná a dlouhá.</p>
+                </div>
+            </article>
         
-            <div class="trasa">
-                <h3>Podél řeky</h3>
-                <p><strong>Délka:</strong> 7 km</p>
-                <p><strong>Obtížnost:</strong> Lehká až střední</p>
-                <p>Rovinatá trasa podél řeky s krásnými výhledy na vodní hladinu. Vhodná pro všechny úrovně běžců.</p>
-                <p><strong>Tip:</strong> Ráno zde můžete potkat mnoho dalších běžců a cyklistů.</p>
-            </div>
+            <article class="route">
+                <div class="route-header">
+                    <h3 class="route-title">Podél řeky</h3>
+                    <div class="route-image">
+                        <img src="img/7km.webp" alt="Běžecká trasa podél řeky">
+                    </div>
+                </div>
+                <div class="route-details">
+                    <p><strong>Délka:</strong> 7 km</p>
+                    <p><strong>Obtížnost:</strong> Lehká až střední</p>
+                    <p>Rovinatá trasa podél řeky s krásnými výhledy na vodní hladinu. Vhodná pro všechny úrovně běžců.</p>
+                    <p class="route-tip"><strong>Tip:</strong> Ráno zde můžete potkat mnoho dalších běžců a cyklistů.</p>
+                </div>
+            </article>
         
-            <div class="trasa">
-                <h3>Vrcholový běh</h3>
-                <p><strong>Délka:</strong> 8 km</p>
-                <p><strong>Obtížnost:</strong> Těžká</p>
-                <p>Trasa vede strmými kopci a nabízí úchvatné výhledy na okolní krajinu. Vhodná pro zkušené běžce, kteří chtějí trénovat sílu a vytrvalost.</p>
-                <p><strong>Tip:</strong> Doporučujeme běhat tuto trasu za dobrého počasí, aby byl výhled co nejlepší.</p>
-            </div>
+            <article class="route">
+                <div class="route-header">
+                    <h3 class="route-title">Vrcholový běh</h3>
+                    <div class="route-image">
+                        <img src="img/8kmsummit.webp" alt="Vrcholová běžecká trasa">
+                    </div>
+                </div>
+                <div class="route-details">
+                    <p><strong>Délka:</strong> 8 km</p>
+                    <p><strong>Obtížnost:</strong> Těžká</p>
+                    <p>Trasa vede strmými kopci a nabízí úchvatné výhledy na okolní krajinu. Vhodná pro zkušené běžce, kteří chtějí trénovat sílu a vytrvalost.</p>
+                    <p class="route-tip"><strong>Tip:</strong> Doporučujeme běhat tuto trasu za dobrého počasí, aby byl výhled co nejlepší.</p>
+                </div>
+            </article>
         
-            <div class="trasa">
-                <h3>Okruh kolem jezera</h3>
-                <p><strong>Délka:</strong> 6 km</p>
-                <p><strong>Obtížnost:</strong> Střední</p>
-                <p>Kruhová trasa kolem malebného jezera s možností občerstvení v blízkých kavárnách. Vhodná pro běžce, kteří chtějí spojit běh s relaxací.</p>
-                <p><strong>Tip:</strong> V létě je zde možnost osvěžení v jezeře po běhu.</p>
-            </div>
+            <article class="route">
+                <div class="route-header">
+                    <h3 class="route-title">Okruh kolem jezera</h3>
+                    <div class="route-image">
+                        <img src="img/6km.webp" alt="Běžecká trasa kolem jezera">
+                    </div>
+                </div>
+                <div class="route-details">
+                    <p><strong>Délka:</strong> 6 km</p>
+                    <p><strong>Obtížnost:</strong> Střední</p>
+                    <p>Kruhová trasa kolem malebného jezera s možností občerstvení v blízkých kavárnách. Vhodná pro běžce, kteří chtějí spojit běh s relaxací.</p>
+                    <p class="route-tip"><strong>Tip:</strong> V létě je zde možnost osvěžení v jezeře po běhu.</p>
+                </div>
+            </article>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2023 Běžecký svět. Všechna práva vyhrazena.</p>
-
+    <footer class="site-footer">
+        <p class="copyright">&copy; 2023 Běžecký svět. Všechna práva vyhrazena.</p>
     </footer>
 </body>
 </html>
