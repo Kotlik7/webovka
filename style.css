@@ -324,3 +324,23 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
 }
+#body1 {
+    background-image: url('img/home.jpg'); /* Background for body1 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#body2 {
+    background-image: url('img/trasy.jpg'); /* Background for body2 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#body3 {
+    background-image: url('img/tiips.jpg'); /* Background for body3 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
