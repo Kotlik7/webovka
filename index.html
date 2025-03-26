@@ -3,77 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Běžecký svět - Úvod</title>
+    <title>Běžecký svět - Tipy a historie</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-<body id="body1">
-    <header>
-        <h1>Běžecký svět</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Úvod</a></li>
-                <li><a href="trasy.html">Trasy</a></li>
-                <li><a href="typy.html">Tipy</a></li>
-            </ul>
-        </nav>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="site-title">Běžecký svět</h1>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Úvod</a></li>
+                    <li class="nav-item"><a href="historie.html" class="nav-link active"><i class="fas fa-history"></i> Historie</a></li>
+                    <li class="nav-item"><a href="tipy.html" class="nav-link"><i class="fas fa-lightbulb"></i> Tipy</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section>
-            <h2>Vítejte na Běžeckém světě!</h2>
-            <p>Zde najdete inspiraci, tipy a trasy pro vaše běžecké dobrodružství.</p>
-            <img src="img/deda.jpg" alt="Běžec v přírodě">
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2 class="hero-title">Historie běhání</h2>
+                <p class="hero-text">Od antických olympijských her po moderní maratony</p>
+            </div>
         </section>
-    
-        <section>
-            <h2>O nás</h2>
-            <p>Běžecký svět je platforma pro všechny milovníky běhu, ať už jste začátečník nebo zkušený maratonec. Naším cílem je poskytovat užitečné informace, motivaci a podporu pro vaše běžecké cíle.</p>
+
+        <section class="history-section">
+            <div class="container">
+                <h2 class="section-title">Vývoj běhu jako sportu</h2>
+                <div class="history-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">776 př.n.l.</div>
+                        <div class="timeline-content">
+                            <h3>První olympijské hry</h3>
+                            <p>Běh byl součástí starověkých olympijských her v Řecku. Hlavní disciplínou byl stadion - běh na délku stadia (cca 192m).</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">490 př.n.l.</div>
+                        <div class="timeline-content">
+                            <h3>Legenda o maratonu</h3>
+                            <p>Podle legendy řecký voják Feidippidés uběhl z Marathónu do Athén, aby oznámil vítězství nad Peršany, a poté zemřel vyčerpáním.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1896</div>
+                        <div class="timeline-content">
+                            <h3>Moderní olympijské hry</h3>
+                            <p>První novodobé olympijské hry v Athénách zahrnovaly maraton jako poctu antické historii. Vítěz Spiridon Louis dokončil trať za 2:58:50.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-year">1960</div>
+                        <div class="timeline-content">
+                            <h3>Vznik joggingu</h3>
+                            <p>Novozélandský trenér Arthur Lydiard popularizoval běh pro zdraví a kondici, což vedlo k joggingovému boomu v 70. letech.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-    
-        <section>
-            <h2>Tipy pro začátečníky</h2>
-            <p>Začínáte s během? Zde je pár tipů, jak začít:</p>
-            <ul>
-                <li>Začněte pomalu a postupně zvyšujte intenzitu.</li>
-                <li>Investujte do kvalitních běžeckých bot.</li>
-                <li>Nezapomeňte na rozcvičení a protažení před během.</li>
-                <li>Poslouchejte své tělo a dopřejte mu odpočinek, když je potřeba.</li>
-            </ul>
+
+        <section class="tips-section">
+            <div class="container">
+                <h2 class="section-title">Základní běžecké tipy</h2>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <div class="tip-icon"><i class="fas fa-shoe-prints"></i></div>
+                        <h3>Výběr obuvi</h3>
+                        <p>Investujte do kvalitních běžeckých bot, které odpovídají vašemu stylu běhu a typu nášlapu. Špatná obuv může vést ke zraněním.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon"><i class="fas fa-heartbeat"></i></div>
+                        <h3>Postupné zvyšování</h3>
+                        <p>Začněte s krátkými vzdálenostmi a pomalu přidávejte kilometry. Zvyšujte objem tréninku maximálně o 10% týdně.</p>
+                    </div>
+                    <div class="tip-card">
+                        <div class="tip-icon"><i class="fas fa-running"></i></div>
+                        <h3>Technika běhu</h3>
+                        <p>Dbejte na správnou techniku - vzpřímený postoj, střední délka kroku a přirozené dopadání na střed chodidla.</p>
+                    </div>
+                </div>
+            </div>
         </section>
-    
-        <section>
-            <h2>Trasy a lokality</h2>
-            <p>Objevte nejkrásnější běžecké trasy v České republice i zahraničí. Zde jsou některé z našich doporučení:</p>
-            <ul>
-                <li>Pražské nábřeží Vltavy</li>
-                <li>Krkonšské hřebenovky</li>
-                <li>Běžecké trasy v Alpách</li>
-                <li>Městské parky v Brně</li>
-            </ul>
-        </section>
-    
-        <section>
-            <h2>Běžecké události</h2>
-            <p>Připojte se k běžeckým událostem a závodům po celém světě. Zde je přehled nadcházejících akcí:</p>
-            <ul>
-                <li>Pražský maraton</li>
-                <li>Běh Terryho Foxe</li>
-                <li>Maraton v New Yorku</li>
-                <li>Běh na podporu charity</li>
-            </ul>
-        </section>
-    
-        <section>
-            <h2>Kontakt</h2>
-            <p>Máte dotazy nebo chcete přispět svými tipy? Napište nám na <a href="mailto:info@bezeckysvet.cz">info@bezeckysvet.cz</a>.</p>
+
+        <section class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Kontaktujte nás</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Máte dotazy ohledně běhání?</h3>
+                        <p><i class="fas fa-envelope"></i> info@bezeckysvet.cz</p>
+                        <p><i class="fas fa-phone"></i> +420 123 456 789</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Praha, Česká republika</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2023 Běžecký svět. Všechna práva vyhrazena.</p>
-        <p>Navštivte nás na <a href="https://www.bezeckysvet.cz">www.bezeckysvet.cz</a></p>
-        <p>Kontakt: <a href="mailto:info@bezeckysvet.cz">info@bezeckysvet.cz</a></p>
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2023 Běžecký svět. Všechna práva vyhrazena.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
     </footer>
 </body>
-<!-- pozadi map tras -->
 </html>
